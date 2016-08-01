@@ -1,0 +1,5 @@
+[user]
+        name = chadmichaeleyer
+        email = eyer@eyer.us
+[credential]
+        helper = osxkeychain
