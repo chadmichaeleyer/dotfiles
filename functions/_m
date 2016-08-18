@@ -1,0 +1,5 @@
+#compdef m
+_files -W $PROJECTS -/
+_files -W $PROJECTS/eyered -/
+
+# See further documentation in `functions/m`.
