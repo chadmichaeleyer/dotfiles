@@ -3,10 +3,11 @@ include = "{*,.tm_properties,.htaccess}"
 
 TM_HG         = /opt/local/bin/hg
 TM_GIT        = /opt/local/bin/git
-PATH          = $PATH:/opt/local/bin:/usr/local/bin:/usr/texbin
+PATH          = $PATH:/opt/local/bin:/usr/local/bin:/usr/texbin:/Library/TeX/texbin
 BIBINPUTS     = $BIBINPUTS:~/Documents/Projects/eyered/_common/bibtex/bib
-TEXINPUTS     = $TEXINPUTS:~/Documents/Projects/eyered/_common/tex
+TEXINPUTS     = $TEXINPUTS:~/Documents/Projects/eyered/_common/tex:~/Documents/Projects/credentials
 TM_LATEX_BIB  = ~/Documents/Projects/eyered/_common/bibtex/bib/eyered.bib
+TM_PANDOC_OPTS = --latex-engine=xelatex
 
 [ "/usr/include/{**/,}*" ]
 tabSize          = 8
