@@ -2,4 +2,4 @@
 #
 
 mkdir -p ~/Library/KeyBindings
-ln $ZSHDOT/keybindings/DefaultKeyBinding.dict ~/Library/KeyBindings/DefaultKeyBinding.dict
+ln $DOTFILES/keybindings/DefaultKeyBinding.dict ~/Library/KeyBindings/DefaultKeyBinding.dict

@@ -2,8 +2,8 @@
 
 source ~/.oh-my-zsh.zshrc
 
-# shortcut to this dotfiles path is $ZSHDOT
-export ZSHDOT=$HOME/Documents/Projects/dotfiles
+# shortcut to this dotfiles path is $DOTFILES
+export DOTFILES=$HOME/Documents/Projects/dotfiles
 
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Documents/Projects
@@ -18,7 +18,7 @@ fi
 
 # all of our zsh files
 typeset -U config_files
-config_files=($ZSHDOT/**/*.zsh)
+config_files=($DOTFILES/**/*.zsh)
 
 # load the path files
 for file in ${(M)config_files:#*/path.zsh}

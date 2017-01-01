@@ -1,0 +1,1 @@
+export EYEREDPATH=$PROJECTS/eyered

@@ -17,8 +17,8 @@
 # autocomplete both on $PROJECTS, and also assume you want to autocomplete on
 # your Go projects in $GOPATH/src.
 
-if [ ! -z "$1" ] && [ -s "$PROJECTS/eyered/$1" ]; then
-  mate "$PROJECTS/eyered/$1"
+if [ ! -z "$1" ] && [ -s "$EYEREDPATH/$1" ]; then
+  mate "$EYEREDPATH/$1"
 else
   mate "$PROJECTS/$1"
 fi

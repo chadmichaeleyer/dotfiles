@@ -1,9 +1,27 @@
 cask_args appdir: '/Applications'
+cask_args prefpanedir: '/Library/PreferencePanes'
+cask_args qlplugindir: '/Library/QuickLook'
+cask_args fontdir: '/Library/Fonts'
 
 tap 'homebrew/bundle'
 tap 'caskroom/versions'
+tap 'homebrew/science'
+tap 'chadmichaeleyer/private'
 
 cask 'xquartz'
+
+cask 'font-doulos-sil'
+cask 'contour-mouse'
+cask 'opendoi'
+cask 'private-call-recorder'
+cask 'private-call-recorder-facetime'
+cask 'private-dragon-dictate'
+cask 'private-dvorak-code'
+cask 'private-entangle'
+cask 'private-font-hypatia-sans-pro'
+cask 'private-font-warnock-pro'
+cask 'private-font-quicksans'
+cask 'private-phoneview'
 
 brew 'ack'
 brew 'coreutils'
@@ -33,17 +51,19 @@ brew 'youtube-dl'
 cask 'adobe-digital-editions'
 cask 'adobe-reader'
 cask 'alfred'
-cask 'audacity'
 cask 'bartender'
 cask 'betterzip'
+cask 'betterzipql'
 cask 'calibre'
-cask 'carboncopycloner'
+cask 'carbon-copy-cloner'
 cask 'cocoaspell'
 cask 'cord'
 cask 'devonthink-pro-office'
 cask 'dropbox'
 cask 'fetch'
-cask 'flash'
+cask 'flash-npapi'
+cask 'flash-ppapi'
+cask 'fluid'
 cask 'flux'
 cask 'github-desktop'
 cask 'gnucash'
@@ -61,27 +81,42 @@ cask 'mactex'
 cask 'microsoft-office'
 cask 'omnidisksweeper'
 cask 'omnifocus'
-cask 'omnioutliner'
 cask 'omnigraffle'
+cask 'omnioutliner'
 cask 'omniplan'
 cask 'pdfpenpro'
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'qlprettypatch'
+cask 'qlstephen'
+cask 'quicklook-csv'
+cask 'quicklook-json'
 cask 'rstudio'
 cask 'silverlight'
 cask 'skim'
 cask 'skype'
+cask 'sourcetree'
+cask 'suspicious-package'
 cask 'textexpander'
 cask 'textmate'
 cask 'transmission-remote-gui'
 cask 'ukelele'
 cask 'vlc'
 cask 'vmware-fusion'
-cask 'wireshark'
-cask 'qlcolorcode'
-cask 'qlstephen'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'qlprettypatch'
-cask 'quicklook-csv'
-cask 'betterzipql'
 cask 'webpquicklook'
-cask 'suspicious-package'
+cask 'wireshark'
+
+mas '1Blocker (1.2.6)', id: 1107421413
+mas '1Password (6.5.3)', id: 443987910
+mas 'Apple Configurator 2 (2.3)', id: 1037126344
+mas 'ForkLift (2.6.6)', id: 412448059
+mas 'Keynote (7.0.5)', id: 409183694
+mas 'Kindle (1.12.4)', id: 405399194
+mas 'Marked 2 (2.5.9)', id: 890031187
+mas 'Microsoft Remote Desktop (8.0.27228)', id: 715768417
+mas 'Moom (3.2.6)', id: 419330170
+mas 'Numbers (4.0.5)', id: 409203825
+mas 'Pages (6.0.5)', id: 409201541
+mas 'QuickCursor (2.7)', id: 404035899
+mas 'Remote Desktop (3.8)', id: 409907375
+mas 'Server (5.2)', id: 883878097
